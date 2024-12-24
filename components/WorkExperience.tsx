@@ -5,6 +5,17 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const workExperience = [
   {
+    company: "Veloship",
+    positions: [
+      {
+        title: "Founding Software Developer",
+        duration: "Dec 2024 - Present · 1 mo",
+        skills: ["Full-Stack Development", "User Experience", "CI/CD"],
+      },
+    ],
+    location: "India · Remote",
+  },
+  {
     company: "Beta Factory",
     positions: [
       {
@@ -13,7 +24,9 @@ const workExperience = [
         skills: [
           "Software Construction",
           "Amazon Web Services (AWS)",
-          "3 more skills",
+          "Full-Stack Development",
+          "Docker",
+          "Kubernetes",
         ],
       },
     ],
@@ -25,12 +38,12 @@ const workExperience = [
       {
         title: "Software Developer",
         duration: "Jun 2024 - Sep 2024 · 4 mos",
-        skills: ["Project Management", "Systems Design", "10 more skills"],
+        skills: ["Project Management", "Systems Design", "Database Management"],
       },
       {
         title: "Associate Software Developer",
         duration: "Dec 2023 - May 2024 · 6 mos",
-        skills: ["Software Construction", "Tailwind CSS", "5 more skills"],
+        skills: ["Software Construction", "Tailwind CSS", "React", "Node.js"],
       },
     ],
     location: "Remote",

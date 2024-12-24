@@ -13,25 +13,25 @@ import Image from "next/image";
 
 const projects = [
   {
+    title: "JuriSync",
+    description:
+      "JuriSync is an advanced lawyer management system designed to simplify and enhance the operations of law firms. Tailored for efficiency and control, it equips superadmins and legal teams with the tools they need to stay organized and focused on delivering exceptional legal services.",
+    image: "/projects/lawspiciousPic.png",
+    link: "https://www.jurisync.swapnilsarkar.dev/",
+  },
+  {
     title: "Serenity",
     description:
       "Serenity is an innovative online mental health platform designed to support your emotional well-being. With cutting-edge AI, Serenity offers two core features: a comprehensive mental health assessment and real-time interaction with an AI therapist.",
     image: "/projects/serenityPic.png",
-    link: "#",
-  },
-  {
-    title: "Lawspicious",
-    description:
-      "Lawscipicious is an advanced lawyer management system designed to simplify and enhance the operations of law firms. Tailored for efficiency and control, it equips superadmins and legal teams with the tools they need to stay organized and focused on delivering exceptional legal services.",
-    image: "/projects/lawspiciousPic.png",
-    link: "#",
+    link: "https://www.serenity.swapnilsarkar.dev/",
   },
   {
     title: "Portfolio Management System",
     description:
       "Portfolio Manager is a dedicated platform designed to help doctors organize, track, and showcase their professional journeys with ease. Built with the unique needs of medical professionals in mind, it provides tools to simplify portfolio management, ensuring a streamlined and organized approach to career growth.",
     image: "/projects/kaushikSahaPic.png",
-    link: "#",
+    link: "https://www.portfoliomanager.swapnilsarkar.dev/",
   },
 ];
 

@@ -9,22 +9,22 @@ import { Button } from "@/components/ui/button";
 
 const testimonials = [
   {
-    name: "John Doe",
-    position: "CEO, TechCorp",
+    name: "Kaushik Saha",
+    position: "Doctor, Neuroscience Institute",
     content:
       "Working with this developer was an absolute pleasure. Their technical skills and attention to detail resulted in a product that exceeded our expectations.",
     avatar: "/placeholder.svg?height=40&width=40",
   },
   {
-    name: "Jane Smith",
-    position: "CTO, InnovateTech",
+    name: "Daisuke Matsuoka",
+    position: "CEO, 株式会社キャリアサバイバル | Career Survival",
     content:
       "I was impressed by the developer's ability to quickly grasp complex concepts and deliver elegant solutions. They are a valuable asset to any development team.",
     avatar: "/placeholder.svg?height=40&width=40",
   },
   {
-    name: "Alex Johnson",
-    position: "Project Manager, WebSolutions",
+    name: "Pratyaksh Mehrotra",
+    position: "CDO, Veloship",
     content:
       "The developer's expertise in both front-end and back-end technologies allowed for seamless integration and a smooth development process. Highly recommended!",
     avatar: "/placeholder.svg?height=40&width=40",
