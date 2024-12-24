@@ -28,28 +28,40 @@ const Contact = () => {
             <div className="space-y-4">
               <div className="flex items-center">
                 <Mail className="h-6 w-6 text-primary mr-4" />
-                <span>youremail@example.com</span>
+                <span>swapnil@veloship.co</span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-6 w-6 text-primary mr-4" />
-                <span>+1 (123) 456-7890</span>
+                <span>+91 9474877175</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="h-6 w-6 text-primary mr-4" />
-                <span>Your City, Country</span>
+                <span>India</span>
               </div>
             </div>
             <div className="mt-8">
               <h4 className="text-xl font-semibold mb-4">Follow Me</h4>
               <div className="flex space-x-4">
                 {/* Add your social media icons/links here */}
-                <a href="#" className="text-primary hover:text-primary/80">
+                <a
+                  href="https://www.linkedin.com/in/swapnilskr/"
+                  target="_blank"
+                  className="text-primary hover:text-primary/80"
+                >
                   LinkedIn
                 </a>
-                <a href="#" className="text-primary hover:text-primary/80">
+                <a
+                  href="https://github.com/SwapnilSkr"
+                  target="_blank"
+                  className="text-primary hover:text-primary/80"
+                >
                   GitHub
                 </a>
-                <a href="#" className="text-primary hover:text-primary/80">
+                <a
+                  href="https://x.com/swapnilskr"
+                  target="_blank"
+                  className="text-primary hover:text-primary/80"
+                >
                   Twitter
                 </a>
               </div>

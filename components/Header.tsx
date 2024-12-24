@@ -24,7 +24,7 @@ const Header = () => {
           transition={{ delay: 0.2 }}
           className="text-2xl font-bold text-primary"
         >
-          Your Name
+          Swapnil Sarkar
         </motion.h1>
         <nav className="hidden md:flex space-x-4 items-center">
           <NavLink href="#home">Home</NavLink>

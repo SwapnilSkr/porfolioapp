@@ -58,13 +58,25 @@ const Footer = () => {
           >
             <h3 className="text-xl font-semibold mb-4">Connect</h3>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-primary-foreground/80">
+              <a
+                href="https://github.com/SwapnilSkr"
+                target="_blank"
+                className="hover:text-primary-foreground/80"
+              >
                 <Github className="h-6 w-6" />
               </a>
-              <a href="#" className="hover:text-primary-foreground/80">
+              <a
+                href="https://www.linkedin.com/in/swapnilskr/"
+                target="_blank"
+                className="hover:text-primary-foreground/80"
+              >
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="#" className="hover:text-primary-foreground/80">
+              <a
+                href="https://x.com/swapnilskr"
+                target="_blank"
+                className="hover:text-primary-foreground/80"
+              >
                 <Twitter className="h-6 w-6" />
               </a>
             </div>
@@ -72,7 +84,7 @@ const Footer = () => {
         </div>
         <div className="mt-8 pt-8 border-t border-primary-foreground/20 text-center">
           <p className="text-sm">
-            &copy; {currentYear} Your Name. All rights reserved.
+            &copy; {currentYear} Swapnil Sarkar. All rights reserved.
           </p>
         </div>
       </div>

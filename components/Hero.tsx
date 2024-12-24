@@ -63,7 +63,7 @@ const Hero = () => {
             <div className="relative w-80 h-80 mx-auto lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-2xl">
               <Image
                 src="/mypic.jpeg"
-                alt="Your Name"
+                alt="Swapnil Sarkar"
                 layout="fill"
                 objectFit="cover"
                 className="rounded-full shadow-lg"
