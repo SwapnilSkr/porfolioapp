@@ -1,37 +1,41 @@
-'use client'
+"use client";
 
-import { motion } from 'framer-motion'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { motion } from "framer-motion";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const workExperience = [
   {
-    company: 'Beta Factory',
+    company: "Beta Factory",
     positions: [
       {
-        title: 'Software Developer',
-        duration: 'Sep 2024 - Nov 2024 · 3 mos',
-        skills: ['Software Construction', 'Amazon Web Services (AWS)', '3 more skills'],
-      }
+        title: "Software Developer",
+        duration: "Sep 2024 - Nov 2024 · 3 mos",
+        skills: [
+          "Software Construction",
+          "Amazon Web Services (AWS)",
+          "3 more skills",
+        ],
+      },
     ],
-    location: 'India · Remote',
+    location: "India · Remote",
   },
   {
-    company: '株式会社キャリアサバイバル | Career Survival',
+    company: "株式会社キャリアサバイバル | Career Survival",
     positions: [
       {
-        title: 'Software Developer',
-        duration: 'Jun 2024 - Sep 2024 · 4 mos',
-        skills: ['Project Management', 'Systems Design', '10 more skills'],
+        title: "Software Developer",
+        duration: "Jun 2024 - Sep 2024 · 4 mos",
+        skills: ["Project Management", "Systems Design", "10 more skills"],
       },
       {
-        title: 'Associate Software Developer',
-        duration: 'Dec 2023 - May 2024 · 6 mos',
-        skills: ['Software Construction', 'Tailwind CSS', '5 more skills'],
-      }
+        title: "Associate Software Developer",
+        duration: "Dec 2023 - May 2024 · 6 mos",
+        skills: ["Software Construction", "Tailwind CSS", "5 more skills"],
+      },
     ],
-    location: 'Remote',
+    location: "Remote",
   },
-]
+];
 
 const WorkExperience = () => {
   return (
@@ -52,10 +56,22 @@ const WorkExperience = () => {
         </div>
       </div>
     </section>
-  )
+  );
+};
+
+interface Position {
+  title: string;
+  duration: string;
+  skills: string[];
 }
 
-const ExperienceCard = ({ job, index }) => (
+interface Job {
+  company: string;
+  positions: Position[];
+  location: string;
+}
+
+const ExperienceCard = ({ job, index }: { job: Job; index: number }) => (
   <motion.div
     initial={{ opacity: 0, y: 50 }}
     whileInView={{ opacity: 1, y: 0 }}
@@ -73,20 +89,21 @@ const ExperienceCard = ({ job, index }) => (
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: posIndex * 0.1 }}
-            className={posIndex > 0 ? 'mt-4 pt-4 border-t' : ''}
+            className={posIndex > 0 ? "mt-4 pt-4 border-t" : ""}
           >
             <p className="font-semibold">{position.title}</p>
             <p className="text-sm text-muted-foreground">{position.duration}</p>
             <div className="mt-2">
               <p className="text-sm font-semibold">Skills:</p>
-              <p className="text-sm text-muted-foreground">{position.skills.join(', ')}</p>
+              <p className="text-sm text-muted-foreground">
+                {position.skills.join(", ")}
+              </p>
             </div>
           </motion.div>
         ))}
       </CardContent>
     </Card>
   </motion.div>
-)
+);
 
-export default WorkExperience
-
+export default WorkExperience;
