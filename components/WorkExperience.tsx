@@ -5,12 +5,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const workExperience = [
   {
-    company: "Veloship",
+    company: "Otherwise AI",
     positions: [
       {
-        title: "Founding Software Developer",
-        duration: "Dec 2024 - Present · 1 mo",
-        skills: ["Full-Stack Development", "User Experience", "CI/CD"],
+        title: "Software Developer",
+        duration: "Jan 2025 - July 2025 · 7 mos",
+        skills: ["Full-Stack Development", "AI Integration", "CI/CD", "OpenAI API", "PostgreSQL", "Docker"],
       },
     ],
     location: "India · Remote",

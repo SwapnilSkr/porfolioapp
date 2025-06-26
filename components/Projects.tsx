@@ -13,25 +13,25 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "JuriSync",
+    title: "Goodfit",
     description:
-      "JuriSync is an advanced lawyer management system designed to simplify and enhance the operations of law firms. Tailored for efficiency and control, it equips superadmins and legal teams with the tools they need to stay organized and focused on delivering exceptional legal services.",
-    image: "/projects/lawspiciousPic.png",
-    link: "https://www.jurisync.swapnilsarkar.dev/",
+      "AI-powered interview automation platform where organizations post job-specific roles with custom questions. Candidates are interviewed by an AI interviewer trained on the posting. Includes role-question schema design, response tracking, and AI-based evaluation.",
+    image: "/projects/goodfit.png",
+    link: "https://goodfit.so",
   },
   {
-    title: "Serenity",
+    title: "Telescope",
     description:
-      "Serenity is an innovative online mental health platform designed to support your emotional well-being. With cutting-edge AI, Serenity offers two core features: a comprehensive mental health assessment and real-time interaction with an AI therapist.",
-    image: "/projects/serenityPic.png",
-    link: "https://www.serenity.swapnilsarkar.dev/",
+      "Telegram group surveillance platform designed for law enforcement and intelligence teams. Tracks activity in cybercrime and extremist groups using Telegram API pipelines, FastAPI backend, and MongoDB filters for real-time analysis.",
+    image: "/projects/telescope.png",
+    link: "https://thetelescope.io",
   },
   {
-    title: "Portfolio Management System",
+    title: "Verideck",
     description:
-      "Portfolio Manager is a dedicated platform designed to help doctors organize, track, and showcase their professional journeys with ease. Built with the unique needs of medical professionals in mind, it provides tools to simplify portfolio management, ensuring a streamlined and organized approach to career growth.",
-    image: "/projects/kaushikSahaPic.png",
-    link: "https://www.portfoliomanager.swapnilsarkar.dev/",
+      "Social intelligence tool that scrapes and filters content from social platforms based on boolean queries and topic relevance. Built for government and intelligence use cases with Puppeteer, MongoDB, and Next.js for clean, high-signal data extraction.",
+    image: "/projects/verideck.png",
+    link: "https://main-verideck.vercel.app/",
   },
 ];
 
